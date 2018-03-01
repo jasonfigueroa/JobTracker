@@ -19,9 +19,11 @@ namespace JobTracker.Models
 
         public string Location { get; set; }
 
+        [Display(Name = "Company")]
         public int CompanyId { get; set; }
         public Company Company { get; set; }
 
+        [Display(Name = "Contact")]
         public int ContactId { get; set; }
         public Contact Contact { get; set; }
     }
